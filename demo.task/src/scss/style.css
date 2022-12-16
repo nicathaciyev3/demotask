@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav #menu {
+  position: relative;
+}
+nav #menu .text {
+  right: 88px;
+  content: "";
+  top: 0;
+  height: 74px;
+  width: 900px;
+  z-index: -1;
+  -webkit-clip-path: polygon(30px 0, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(30px 0, 100% 0%, 100% 100%, 0% 100%);
+  background-color: #f55b14;
+}
+nav #menu .text ul {
+  display: flex;
+  gap: 30px;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+nav #menu .text ul li {
+  list-style: none;
+  color: white;
+  margin: 20px 0px;
+}
+nav #menu .text ul li:hover {
+  color: black;
+}
+
+main #banner {
+  position: absolute;
+  margin: -40px 0px;
+}
+main #banner .items_1 img {
+  margin: 74px 0px;
+  width: 100%;
+}
+main #banner .carousel-inner .carousel-item {
+  width: 100%;
+  height: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+}
+main #banner .carousel-inner .items_1 .bavarya {
+  position: absolute;
+  top: 0;
+  left: 50;
+  width: 100%;
+  height: 800px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+main #banner .carousel-inner .items_1 .bavarya .texttt {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  display: flex;
+  color: white;
+}
+main #banner .carousel-inner .items_1 .bavarya .texttt .buton button {
+  -webkit-clip-path: polygon(30px 0, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(30px 0, 100% 0%, 100% 100%, 0% 100%);
+  background-color: #f55b14;
+  color: white;
+  width: 161px;
+  height: 50px;
+  border: none;
+}
+main #banner .carousel-inner .items_1 .bavarya .texttt .buton button:hover {
+  color: black;
+}
+main #banner .carousel-inner .items_1 .bavarya .texttt .buton2 button {
+  -webkit-clip-path: polygon(30px 0, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(30px 0, 100% 0%, 100% 100%, 0% 100%);
+  background-color: #08172e;
+  color: white;
+  width: 161px;
+  height: 50px;
+  border: none;
+}
+main #banner .carousel-inner .items_1 .bavarya .texttt .buton2 button:hover {
+  color: #f55b14;
+}
+main #banner .carousel-inner .items_1 .bavarya .texttt h2 {
+  font-size: 80px;
+  font-weight: 900;
+}
+main #banner .carousel-inner .items_1 .bavarya .texttt p {
+  font-size: 40px;
+  color: #CB9500;
+}/*# sourceMappingURL=style.css.map */
