@@ -152,4 +152,12 @@ main #banner .carousel-inner .items_1 .bavarya .texttt h2 {
 main #banner .carousel-inner .items_1 .bavarya .texttt p {
   font-size: 40px;
   color: #CB9500;
+}
+main #banner span {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(172, 172, 172);
+}
+main #banner span:hover {
+  background-color: #f55b14;
 }/*# sourceMappingURL=style.css.map */

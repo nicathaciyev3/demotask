@@ -79,5 +79,13 @@ button{
                 
             }
            } 
+           span{
+            width: 80px;
+            height: 80px;
+            background-color: rgb(172, 172, 172);
+            &:hover{
+                background-color: #f55b14;
+            }
+           }
     }
 }
