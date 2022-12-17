@@ -17,11 +17,11 @@
             clip-path: polygon(30px 0, 100% 0%, 100% 100%, 0% 100%);
             background-color: #f55b14;
             .search{
-                margin: 5px 0px;
-     height: 65px;
+                margin: 9px 0px;
+     height: 57px;
     display: flex;
     align-items: center;
-    background-color: #08172e;
+    background-color: gray;
     width: 70px;
     justify-content: center;
     clip-path: polygon(10px 0, 100% 0%, 88% 100%, 0% 100%);
@@ -30,6 +30,28 @@
                     cursor: pointer;
               
                 }}
+                .contact{
+                    margin: 9px 0px;
+                    height: 57px;
+                   display: flex;
+                   align-items: center;
+                   background-color: gray;
+                   width: 168px;
+                   justify-content: center;
+                   clip-path: polygon(10px 0, 100% 0%, 88% 100%, 0% 100%);
+                   &:hover{background-color: white;
+                cursor: pointer;
+                p{ 
+                    color: #f55b14;
+                    }
+                }
+                p{
+                    font-size: 15px;
+                    font-weight: 800;
+                   
+
+                }
+                }
             }
             ul{
                 display: flex;

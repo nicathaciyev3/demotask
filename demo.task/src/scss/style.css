@@ -23,11 +23,11 @@
   background-color: #f55b14;
 }
 #menu .text .search {
-  margin: 5px 0px;
-  height: 65px;
+  margin: 9px 0px;
+  height: 57px;
   display: flex;
   align-items: center;
-  background-color: #08172e;
+  background-color: gray;
   width: 70px;
   justify-content: center;
   -webkit-clip-path: polygon(10px 0, 100% 0%, 88% 100%, 0% 100%);
@@ -39,6 +39,28 @@
 #menu .text .search img {
   width: 25px;
   cursor: pointer;
+}
+#menu .text .contact {
+  margin: 9px 0px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  width: 168px;
+  justify-content: center;
+  -webkit-clip-path: polygon(10px 0, 100% 0%, 88% 100%, 0% 100%);
+          clip-path: polygon(10px 0, 100% 0%, 88% 100%, 0% 100%);
+}
+#menu .text .contact:hover {
+  background-color: white;
+  cursor: pointer;
+}
+#menu .text .contact:hover p {
+  color: #f55b14;
+}
+#menu .text .contact p {
+  font-size: 15px;
+  font-weight: 800;
 }
 #menu ul {
   display: flex;
