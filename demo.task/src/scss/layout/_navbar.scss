@@ -25,9 +25,10 @@
     width: 70px;
     justify-content: center;
     clip-path: polygon(10px 0, 100% 0%, 88% 100%, 0% 100%);
+    cursor: pointer;
     &:hover{background-color: white;}
                 img{width: 25px;
-                    cursor: pointer;
+                    
               
                 }}
                 .contact{
@@ -46,8 +47,9 @@
                     }
                 }
                 p{
-                    font-size: 15px;
+                    font-size: 18px;
                     font-weight: 800;
+                    margin: 1px 0px;
                    
 
                 }

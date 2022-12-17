@@ -32,13 +32,13 @@
   justify-content: center;
   -webkit-clip-path: polygon(10px 0, 100% 0%, 88% 100%, 0% 100%);
           clip-path: polygon(10px 0, 100% 0%, 88% 100%, 0% 100%);
+  cursor: pointer;
 }
 #menu .text .search:hover {
   background-color: white;
 }
 #menu .text .search img {
   width: 25px;
-  cursor: pointer;
 }
 #menu .text .contact {
   margin: 9px 0px;
@@ -59,8 +59,9 @@
   color: #f55b14;
 }
 #menu .text .contact p {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 800;
+  margin: 1px 0px;
 }
 #menu ul {
   display: flex;
