@@ -21,22 +21,28 @@
      height: 57px;
     display: flex;
     align-items: center;
-    background-color: gray;
+    background-color: #08172e;
     width: 70px;
     justify-content: center;
     clip-path: polygon(10px 0, 100% 0%, 88% 100%, 0% 100%);
     cursor: pointer;
-    &:hover{background-color: white;}
-                img{width: 25px;
-                    
-              
-                }}
+    &:hover{
+        background-color: white;
+        .img_1{display: none;}
+        .img_2{display: flex;}
+    }
+    .img_1{width: 25px;}
+    .img_2{
+    width: 25px;
+    display: none;}
+            }
                 .contact{
                     margin: 9px 0px;
                     height: 57px;
                    display: flex;
                    align-items: center;
-                   background-color: gray;
+                   background-color: #08172e;
+                   color: white;
                    width: 168px;
                    justify-content: center;
                    clip-path: polygon(10px 0, 100% 0%, 88% 100%, 0% 100%);

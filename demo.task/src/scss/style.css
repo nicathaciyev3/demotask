@@ -27,7 +27,7 @@
   height: 57px;
   display: flex;
   align-items: center;
-  background-color: gray;
+  background-color: #08172e;
   width: 70px;
   justify-content: center;
   -webkit-clip-path: polygon(10px 0, 100% 0%, 88% 100%, 0% 100%);
@@ -37,15 +37,26 @@
 #menu .text .search:hover {
   background-color: white;
 }
-#menu .text .search img {
+#menu .text .search:hover .img_1 {
+  display: none;
+}
+#menu .text .search:hover .img_2 {
+  display: flex;
+}
+#menu .text .search .img_1 {
   width: 25px;
+}
+#menu .text .search .img_2 {
+  width: 25px;
+  display: none;
 }
 #menu .text .contact {
   margin: 9px 0px;
   height: 57px;
   display: flex;
   align-items: center;
-  background-color: gray;
+  background-color: #08172e;
+  color: white;
   width: 168px;
   justify-content: center;
   -webkit-clip-path: polygon(10px 0, 100% 0%, 88% 100%, 0% 100%);
