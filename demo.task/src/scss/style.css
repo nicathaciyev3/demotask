@@ -4,10 +4,11 @@
   padding: 0;
 }
 
-nav #menu {
-  position: relative;
+#menu {
+  position: absolute;
+  z-index: 1000;
 }
-nav #menu .text {
+#menu .text {
   right: 88px;
   content: "";
   top: 0;
@@ -18,18 +19,17 @@ nav #menu .text {
           clip-path: polygon(30px 0, 100% 0%, 100% 100%, 0% 100%);
   background-color: #f55b14;
 }
-nav #menu .text ul {
+#menu .text ul {
   display: flex;
   gap: 30px;
-  margin: 20px 0px;
   cursor: pointer;
 }
-nav #menu .text ul li {
+#menu .text ul li {
   list-style: none;
   color: white;
   margin: 20px 0px;
 }
-nav #menu .text ul li:hover {
+#menu .text ul li:hover {
   color: black;
 }
 
