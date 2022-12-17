@@ -5,8 +5,9 @@
         position: absolute;
         z-index: 1000;
         .text{
-            
-            
+            gap: 50px;
+            display: flex;
+           flex-direction: row;
             right: 88px;
             content: "";
             top: 0;
@@ -15,6 +16,21 @@
             z-index: -1;
             clip-path: polygon(30px 0, 100% 0%, 100% 100%, 0% 100%);
             background-color: #f55b14;
+            .search{
+                margin: 5px 0px;
+     height: 65px;
+    display: flex;
+    align-items: center;
+    background-color: #08172e;
+    width: 70px;
+    justify-content: center;
+    clip-path: polygon(10px 0, 100% 0%, 88% 100%, 0% 100%);
+    &:hover{background-color: white;}
+                img{width: 25px;
+                    cursor: pointer;
+              
+                }}
+            }
             ul{
                 display: flex;
                 gap: 30px;
@@ -30,5 +46,4 @@
                 }
             }
         }
-    }
 // }
